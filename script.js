@@ -22,5 +22,5 @@ function contarRespuestasCorrectas() {
 
 function mostrarResultado() {
     const totalCorrectas = contarRespuestasCorrectas();
-    console.log('Respuestas correctas: ' + totalCorrectas);
+    alert('Respuestas correctas: ' + totalCorrectas);
 }
